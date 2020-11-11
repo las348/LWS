@@ -92,6 +92,13 @@ header.masthead {
     }
   }
 
+  #Laureni {
+    width: 40%;
+    border-radius: 10%;
+    border: double white;
+    margin-bottom: 20px;
+    }
+
   hr.divider {
     max-width: 3.25rem;
     border-width: 0.2rem;
@@ -159,7 +166,6 @@ header.masthead {
   .github {
     padding-right: 10px;
   }
-
 
   /* Bounce In */
 .hvr-bounce-in {
