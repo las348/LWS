@@ -36,7 +36,7 @@
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto my-2 my-lg-0">
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">Projects</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
                 </ul>
             </div>
@@ -79,9 +79,9 @@
         </div>
     </section>
     <!-- Services-->
-    <section class="page-section" id="services">
+    <section class="page-section">
         <div class="container">
-            <h2 class="text-center mt-0">Portfolio</h2>
+            <h2 class="text-center mt-0">Technologies</h2>
             <hr class="divider my-4" />
             <div class="row">
                 <div class="col-lg-3 col-md-6 text-center">
@@ -117,11 +117,25 @@
         </div>
     </section>
     <!-- Portfolio-->
-    <div class="projects">
+    <div class="projects" id="projects">
         <h2 class="text-center mt-0">Projects</h2>
         <hr class="divider my-4" />
     </div>
     <section class="flex-container">
+        <div class="flex-item">
+            <div class="content-overlay"></div>
+            <img class="content-image" src="assets/img/proshop.PNG">
+            <div class="content-details fadeIn-top">
+                <h5>eCommerce website using MERN and redux.</p>
+            </div>
+            <div class="moreInfo">
+                <h5 class="card-title">ProShop</h5>
+                <a href="https://github.com/las348/proshop" target="_blank" class="github">
+                    <img src="assets/img/github.png" class="hvr-bounce-in"></a>
+                <a href="https://proshop-las.herokuapp.com" target="_blank">
+                    <img src="assets/img/webpage.png" class="hvr-bounce-in"></a>
+            </div>
+        </div>
         <div class="flex-item">
             <div class="content-overlay"></div>
             <img class="content-image" src="assets/img/playdatery.PNG">
@@ -187,9 +201,10 @@
                     <a class="d-block" href="mailto:las348@nyu.edu" id="email">las348@nyu.edu</a>
                 </div>
                 <div class="col-lg-4 mr-auto text-center">
-                    <a href="https://www.linkedin.com/in/laureni-wilk-san/">
-                        <i class="fab fa-linkedin fa-3x mb-3 text-muted hvr-bounce-in"></i></a>
-                    <div id="linkedin">LinkedIn</div>
+                    <a href="https://www.linkedin.com/in/laureni-wilk-san/" target="_blank">
+                        <i class="fab fa-linkedin fa-3x mb-3 text-muted hvr-bounce-in"></i>
+                        <p id="linkedin">LinkedIn</p>
+                    </a>
                 </div>
             </div>
         </div>
@@ -197,7 +212,7 @@
     <!-- Footer-->
     <footer class="bg-light py-5">
         <div class="container">
-            <div class="small text-center text-muted">Copyright © 2020 - Laureni Wilkinson-Sanchez
+            <div class="small text-center text-muted">Copyright © 2021 - Laureni Wilkinson-Sanchez
             </div>
         </div>
     </footer>

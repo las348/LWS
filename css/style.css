@@ -147,17 +147,11 @@ header.masthead {
   color: #22a177;
 }
 
-#email {
+#email,
+#linkedin {
     color: #22a177;
   }
 
-  #email:hover {
-    color: #2ec593;
-  }
-
-#linkedin {
-  color: #22a177;
-}
 
 .text-white-75 {
     color: rgba(255, 255, 255, 0.75);
@@ -260,9 +254,9 @@ header.masthead {
 h5 {
   color: white;
 }
+
   /* Bounce In */
 .hvr-bounce-in {
-    display: inline-block;
     vertical-align: middle;
     -webkit-transform: perspective(1px) translateZ(0);
     transform: perspective(1px) translateZ(0);
