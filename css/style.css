@@ -255,6 +255,10 @@ h5 {
   color: white;
 }
 
+.aws {
+  height: 150px;
+}
+
   /* Bounce In */
 .hvr-bounce-in {
     vertical-align: middle;
