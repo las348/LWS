@@ -255,9 +255,26 @@ h5 {
   color: white;
 }
 
-.aws {
-  height: 150px;
+.technologies {
+  height: 64px;
 }
+.certifications {
+  height: 74px;
+}
+
+.cert-text {
+  color: #2ec593; 
+}
+
+a.cert-a:hover,
+a#linkedin-a:hover {
+  color:#2ec593;
+}
+a.cert-a:visited,
+a#linkedin-a:visited {
+  color:#2ec593;
+}
+
 
   /* Bounce In */
 .hvr-bounce-in {
